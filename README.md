@@ -47,6 +47,7 @@ If the input is already a clean single-plate project (Plate 1 only), the script 
 
 ```bash
 python convert_3mf_to_single_plate.py "/path/to/input.gcode.3mf" -o "/path/to/output_dir"
+```
 
 
 
@@ -71,19 +72,22 @@ This script is intentionally simple:
 
 ▶️ Batch Conversion Examples
 Convert all .gcode.3mf in one directory
-python batch_convert_3mf_to_single_plate.py \
+```python batch_convert_3mf_to_single_plate.py \
   ./projects \
   -o ./single_plate
+```
 
 Recursive (recommended for real project trees)
-python batch_convert_3mf_to_single_plate.py \
+```python batch_convert_3mf_to_single_plate.py \
   ./projects \
   -o ./single_plate \
   --recursive
+```
 
 Dry-run (safe preview)
-python batch_convert_3mf_to_single_plate.py \
+```python batch_convert_3mf_to_single_plate.py \
   ./projects \
   -o ./single_plate \
   --recursive \
   --dry-run
+```
