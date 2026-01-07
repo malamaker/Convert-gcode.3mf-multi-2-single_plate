@@ -192,4 +192,4 @@ This warning is safe to ignore if conversion succeeds.
 
 ## 📜 License
 
-MIT License (see LICENSE)
+AGPL-3.0 license (see LICENSE)
